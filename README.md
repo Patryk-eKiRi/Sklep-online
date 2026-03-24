@@ -48,4 +48,4 @@ Konto testowe
 Admin:
 
 email: admin@example.com
-hasło: admi
+hasło: admin
