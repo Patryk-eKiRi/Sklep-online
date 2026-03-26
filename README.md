@@ -1,5 +1,9 @@
 # ❄️ Ski Shop – Online Winter Sports Store
 
+An e-commerce web application for winter sports equipment, built with **React, PHP, and MySQL**.  
+The project includes a full shopping experience: product browsing, cart management, order system, authentication, and an admin panel.
+
+
 ### Home
 ![Home](./Screeny/home.png)
 
@@ -9,8 +13,6 @@
 ### Contact
 ![Contact](./Screeny/kontakt.png)
 
-An e-commerce web application for winter sports equipment, built with **React, PHP, and MySQL**.  
-The project includes a full shopping experience: product browsing, cart management, order system, authentication, and an admin panel.
 
 ---
 
