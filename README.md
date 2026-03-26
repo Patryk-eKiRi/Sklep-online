@@ -1,71 +1,95 @@
-# Sklep-online
-Sklep internetowy ze sprzętem sportowym na zimę, zbudowany w oparciu o React, PHP i MySQL – zawiera koszyk, zamówienia, system logowania i panel administracyjny.
+# ❄️ Ski Shop – Online Winter Sports Store
+
+### Home
+![Home](./Screeny/home.png)
+
+### Products
+![Products](./Screeny/produkty.png)
+
+### Contact
+![Contact](./Screeny/kontakt.png)
+
+An e-commerce web application for winter sports equipment, built with **React, PHP, and MySQL**.  
+The project includes a full shopping experience: product browsing, cart management, order system, authentication, and an admin panel.
+
+---
+
+##  Features
+
+###  User
+- User registration and login  
+- Browse available products  
+- Filter products by category  
+- Add products to cart  
+- Remove products from cart  
+- Place orders  
+
+###  Order System
+- Orders stored in the database  
+- Order history available for admin  
+
+###  Admin Panel
+- Access to admin dashboard  
+- View all user orders  
+
+---
+
+##  Tech Stack
+
+**Frontend**
+- React (Vite)
+
+**Backend**
+- PHP (REST API)
+
+**Database**
+- MySQL (XAMPP)
+
+**Styling**
+- CSS
+
+---
+
+##  Installation & Setup
+
+### 1 Backend (XAMPP)
+
+Copy the `backend` folder to:
+
+xampp/htdocs/api
 
 
+Then in xampp start:
+- Apache  
+- MySQL  
+
+---
+
+### 2 Database Setup
+
+1. Open **phpMyAdmin**  
+2. Create a database named:
+
+skidb
 
 
- Funkcjonalności:<br>
-
-  Użytkownik:<br>
-rejestracja i logowanie<br>
-przeglądanie produktów<br>
-filtrowanie po kategoriach<br>
-dodawanie do koszyka<br>
-usuwanie z koszyka<br>
-składanie zamówień<br>
-<br>
- System zamówień:<br>
-zapis zamówień w bazie danych<br>
-historia zamówień (admin)<br>
-
-  Admin:<br>
-dostęp do panelu admina<br>
-podgląd zamówień użytkowników<br>
+3. Import the SQL file:
 
 
-
-  Technologie:<br>
-Frontend: React (Vite)<br>
-Backend: PHP (REST API)<br>
-Baza danych: MySQL (XAMPP)<br>
-Stylowanie: CSS<br>
+database/skidb.sql
 
 
+---
 
+### 3 Frontend
 
+Navigate to the frontend folder and run:
 
- Instalacja i uruchomienie
-
- 1. Backend (XAMPP)
-
-skopiuj folder `backend` do:<br>
-  xampp/htdocs/api<br>
-uruchom Apache i MySQL
-
-
-
-2. Baza danych
-
-otwórz phpMyAdmin<br>
-utwórz bazę `skidb`<br>
-zaimportuj plik:<br>
-  database/skidb.sql
-
-
-
- 3. Frontend
-
-
-cd frontend<br>
-npm install<br>
-npm run dev<br>
-
-
-
- Konto testowe:
-
-email: admin@example.com<br>
-hasło: admin
-
-
-
+```bash
+cd frontend
+npm install
+npm run dev
+```
+ Test Account
+Email: admin@example.com<br>
+Password: admin
